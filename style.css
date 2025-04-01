@@ -1,0 +1,132 @@
+/* Global style */
+
+/* Screen Margins & padding */
+
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* General Text Styles */
+.general-text {
+    font-size: 18px;
+    color: black;
+}
+.general-centering {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+body {
+    color: black;
+    background: linear-gradient(to bottom right, white, gray);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+}
+.centered-layout {
+    max-width: 1400px;
+    height: 700px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-color: black;
+}
+/*              Nav Bar                         */
+.navbar {
+    background-color: rgb(153, 64, 64);
+    padding: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw; 
+    max-width: 100%; 
+    margin: 0;
+    height: 70px;
+}
+
+/* Navbar Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.nav-links li {
+    flex-grow: 1;  /* Makes all items take equal space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; 
+    padding: 0 20px;
+    border: 1px solid transparent;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;  /* Ensures the link stretches inside li */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;  /* Prevents extra spacing issues */
+}
+
+.centered-text {
+    text-align: center;
+}
+
+
+/* Boutme Style */
+
+.image-center {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/* BoutRU Style */
+
+.school-stuff {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.top-margin {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+/*Resume Style */
+
+.divider {
+    border: none;
+    border-top: 2px solid black;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+.bottom-margin {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.small-bottom-margin {
+    margin-bottom: 5px;
+    
+}
